@@ -5,7 +5,7 @@
 amount = int(input("Please enter the amount of numbers you want to be averaged: "))
 total = 0
 for count in range(amount):
-    number = int(input("please enter a numer: "))
+    number = int(input("please enter a number: "))
     total = total + number
 average = total / amount
 
